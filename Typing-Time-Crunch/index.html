@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    <!-- jQuery CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>   <!-- PopperJS CDN -->  
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <title>Andy Du Ly</title>
+    </head>
+        
+    <body class="blackBG text-white">
+        <div class="col-md-10 offset-md-1 text-center"> <br/><br/><br/>
+            <h1 class="blueText">Typing Time Crunch</h1>
+            <h4>Inspired by Traversy Media</h4><br/><br/>
+        </div>
+
+        <div class="text-center">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <p>You have <span class="blueText"> </span> seconds to type:</p>
+                    <h2 class="blueText"> </h2><br/>
+
+                    <div class="col-md-4 mx-auto">
+                        <input type="text" placeholder="type here" autofocus>
+                    </div><br/>
+                    <h4></h4> <br/>
+            
+                    <!-- Time & Score Columns -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Time Left:
+                                <span class="blueText">3</span>
+                            </h3>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3>Score:
+                                <span class="blueText">0</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div><br/>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1 text-center">
+                    <h4 class="blueText">How to play:</h4>
+                    <p>Begin typing to re/start the game.
+                    <br/>Beat the timer to continue!</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
