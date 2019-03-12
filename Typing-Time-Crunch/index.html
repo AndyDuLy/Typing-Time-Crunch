@@ -16,40 +16,43 @@
         <title>Andy Du Ly</title>
     </head>
         
+    <!-- Heading block -->
     <body class="blackBG text-white">
         <div class="col-md-10 offset-md-1 text-center"> <br/><br/><br/>
             <h1 class="blueText">Typing Time Crunch</h1>
             <h4>Inspired by Traversy Media</h4><br/><br/>
         </div>
 
+        <!-- Timer 1 and word-to-type block -->
         <div class="text-center">
             <div class="row">
                 <div class="col-md-6 mx-auto">
-                    <p>You have <span class="blueText"> </span> seconds to type:</p>
-                    <h2 class="blueText"> </h2><br/>
+                    <p>You have <span class="blueText" id="seconds"> </span> seconds to type:</p>
+                    <h2 class="blueText" id="randomWord"> </h2><br/>
 
                     <div class="col-md-4 mx-auto">
-                        <input type="text" placeholder="type here" autofocus>
+                        <input type="text" class="form-control form-control-lg" placeholder="type here" id="userInput" autofocus>
                     </div><br/>
-                    <h4></h4> <br/>
+                    <h4 id="statusMessage"></h4> <br/>
             
                     <!-- Time & Score Columns -->
                     <div class="row">
                         <div class="col-md-6">
                             <h3>Time Left:
-                                <span class="blueText">3</span>
+                                <span class="blueText" id="timeLeft">3</span>
                             </h3>
                         </div>
 
                         <div class="col-md-6">
                             <h3>Score:
-                                <span class="blueText">0</span>
+                                <span class="blueText" id="currentScore">0</span>
                             </h3>
                         </div>
                     </div>
                 </div>
             </div><br/>
 
+            <!-- Instructions block -->
             <div class="row">
                 <div class="col-md-10 offset-md-1 text-center">
                     <h4 class="blueText">How to play:</h4>
