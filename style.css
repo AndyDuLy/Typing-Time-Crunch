@@ -1,0 +1,5 @@
+.body, html { overflow-x: hidden; }
+.blackBG { background-color: rgb(16, 14, 23); }
+
+/* Text Classes */
+.blueText { color: rgb(0, 158, 255); }
